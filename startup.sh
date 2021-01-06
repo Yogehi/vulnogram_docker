@@ -1,5 +1,11 @@
 echo "====================================="
 echo "== F-Secure Vulnogram Docker Image =="
+echo "== Make sure you run the following =="
+echo "== Docker command:                 =="
+echo "==                                 =="
+echo "== docker run -it -p 3555:3555 \   =="
+echo "== kengannonmwr/vulnogram_docker   =="
+echo "==                                 =="
 echo "== Browse to http://localhost:3555 =="
 echo "====================================="
 python3 -m http.server 3555

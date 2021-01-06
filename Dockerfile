@@ -7,7 +7,7 @@ RUN apt-get update && \
 	apt-utils \
 	git \
 	python3 \
-	build-
+	build-essential
 
 # install nodejs
 RUN curl -sL https://deb.nodesource.com/setup_15.x | bash -
